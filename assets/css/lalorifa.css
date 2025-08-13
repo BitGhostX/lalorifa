@@ -1,0 +1,52 @@
+.info {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+    width: 100%;
+    padding: 32px 16px;
+    box-sizing: border-box;
+}
+
+.qr-container {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.waviy {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    gap: 4px;
+}
+
+@media (max-width: 600px) {
+    .info {
+        padding: 18px 4px;
+    }
+    .waviy {
+        font-size: 1.5rem;
+    }
+    .qr-container img {
+        max-width: 120px !important;
+    }
+}
+
+.lalorifa-contact {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #fea900;
+    padding: 10px 16px;
+    display: inline-block;
+}
+
+.lalorifa-contact strong {
+    color: #132b83;
+}
